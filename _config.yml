@@ -2,7 +2,7 @@ title: 个人知识库
 description: 内容聚合型知识博客
 theme: stellar
 url: https://antfish-hit.github.io/blog
-root: /
+root: /blog
 permalink: posts/:title/
 
 index_generator:

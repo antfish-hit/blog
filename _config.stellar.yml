@@ -3,52 +3,52 @@ leftbar:
     name: 个人知识库
     tagline: 记录、连接并重新发现知识
     image:
-      src: /assets/brand.webp
+      src: /blog/assets/brand.webp
   menu:
     - id: post
       title: 近期发布
       icon: default:documents
-      url: /
+      url: /blog/
       accent: '#1BCDFC'
     - id: topic
       title: 专栏
       icon: default:pin
-      url: /topic/
+      url: /blog/topic/
       accent: '#F44336'
     - id: archives
       title: 文章归档
       icon: default:calendar
-      url: /archives/
+      url: /blog/archives/
       accent: '#7C4DFF'
     - id: wiki
       title: 知识库
       icon: default:documents
-      url: /wiki/
+      url: /blog/wiki/
       accent: '#3DC550'
 footer:
   sitemap:
     - title: 浏览知识库
       items:
-        - '[最近文章](/)'
-        - '[知识库目录](/wiki/)'
-        - '[内容归档](/archives/)'
+        - '[最近文章](/blog/)'
+        - '[知识库目录](/blog/wiki/)'
+        - '[内容归档](/blog/archives/)'
     # - title: 知识管理专题
     #   items:
-    #     - '[个人知识管理入门](/wiki/knowledge-management/)'
-    #     - '[收集材料时保留上下文](/wiki/knowledge-management/capture/)'
-    #     - '[将材料整理成独立笔记](/wiki/knowledge-management/organize/)'
-    #     - '[让回访产生一个实际结果](/wiki/knowledge-management/review/)'
+    #     - '[个人知识管理入门](/blog/wiki/knowledge-management/)'
+    #     - '[收集材料时保留上下文](/blog/wiki/knowledge-management/capture/)'
+    #     - '[将材料整理成独立笔记](/blog/wiki/knowledge-management/organize/)'
+    #     - '[让回访产生一个实际结果](/blog/wiki/knowledge-management/review/)'
     # - title: 建站手册专题
     #   items:
-    #     - '[Stellar 建站手册导读](/wiki/site-handbook/)'
-    #     - '[组织博客与 Wiki 文档](/wiki/site-handbook/content/)'
-    #     - '[为知识库建立导航](/wiki/site-handbook/navigation/)'
-    #     - '[检查与预览你的站点](/wiki/site-handbook/publishing/)'
+    #     - '[Stellar 建站手册导读](/blog/wiki/site-handbook/)'
+    #     - '[组织博客与 Wiki 文档](/blog/wiki/site-handbook/content/)'
+    #     - '[为知识库建立导航](/blog/wiki/site-handbook/navigation/)'
+    #     - '[检查与预览你的站点](/blog/wiki/site-handbook/publishing/)'
     - title: 分类查找
       items:
-        - '[分类](/categories/)'
-        - '[标签](/tags/)'
-        - '[专栏](/topic/)'
+        - '[分类](/blog/categories/)'
+        - '[标签](/blog/tags/)'
+        - '[专栏](/blog/topic/)'
 
 profiles:
   wiki_index:
